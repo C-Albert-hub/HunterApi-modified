@@ -23,7 +23,7 @@ pip install -r requirements.txt
 这是main文件里面的参数中查找的年限范围
 
 ## 修改版的功能
-将可以读取txt文件中的ip地址，对批量ip进行查询，如果中途停止会生成一个requested_ip.txt用于保存已经请求过的ip:port，是用于保存当前ip请求过的进度。
+将可以读取txt文件中的ip地址，对批量ip进行查询，如果中途停止会生成一个requested_ip.txt用于保存已经请求过的ip:port，是用于保存进度。
 
 ***注意修改APi中Key的值***
 
