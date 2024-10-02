@@ -206,7 +206,7 @@ if __name__ == '__main__':
     db.connect()
     db.create_tables([IPData, ], safe=True)
 
-    fixed_api_key = 'bfa098517fb4ca80324c0563ec8f85699dd7a29c813f7aa8cda02d3640d4bb8e'
+    fixed_api_key = ''
 
     with open(args.ip_file, 'r') as file:
         ip_list = [line.strip() for line in file if line.strip()]
